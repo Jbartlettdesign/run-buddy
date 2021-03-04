@@ -114,6 +114,17 @@
   .steps{
       background: #fce138;
   }
+  .step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+  }
   
   .step h3{
       color: #024e76;
@@ -136,24 +147,17 @@
   .step-text p {
     color: #39a6b2;
     font-size: 18px;
-    flex: 12;
+    
   }
   .step-text h4 {
     font-size: 26px;
     line-height: 1.5;
     color: #024e76;
   }
-  .step {
-    margin: 50px auto;
-    padding-bottom: 50px;
-    width: 80%;
-    border-bottom: 1px solid #39a6b2;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-
+  .step-text{
+    flex: 12;
   }
+  
   section{
       padding: 60px;
   } 
